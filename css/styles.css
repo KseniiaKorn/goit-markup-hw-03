@@ -15,7 +15,7 @@ h3 {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
 }
 
 a {
@@ -184,7 +184,7 @@ img {
 }
 
 .features-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-subtitle {
